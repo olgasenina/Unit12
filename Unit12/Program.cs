@@ -8,6 +8,7 @@ namespace Unit12
     {
         static void Main(string[] args)
         {
+            // Список пользователей
             List<User> users = new List<User>();
 
             users.Add(new User { Name = "Ольга", Login = "OlgaD", IsPremium = true }) ;
@@ -17,26 +18,35 @@ namespace Unit12
 
             foreach(User aUser in users)
             {
-                Console.WriteLine();
-                Console.WriteLine($"Привет, {aUser.Name}!");
+                Console.WriteLine($"\nПривет, {aUser.Name}!");
 
-                if(!aUser.IsPremium)
+                // Если нет премиум-подписки
+                if (!aUser.IsPremium)
                 {
-                    Console.WriteLine("Посетите наш новый сайт с бесплатными играми free.games.for.a.fool.com");
-                    // Остановка на 1 с
-                    Thread.Sleep(1000);
-
-                    Console.WriteLine("Купите подписку на МыКомбо и слушайте музыку везде и всегда.");
-                    // Остановка на 2 с
-                    Thread.Sleep(2000);
-
-                    Console.WriteLine("Оформите премиум-подписку на наш сервис, чтобы не видеть рекламу.");
-                    // Остановка на 3 с
-                    Thread.Sleep(3000);
+                    // Показываем рекламу
+                    ShowAds();
                 }
             }
 
             Console.ReadKey();
+        }
+
+        /// <summary>
+        /// Показать рекламу
+        /// </summary>
+        static void ShowAds()
+        {
+            Console.WriteLine("Посетите наш новый сайт с бесплатными играми free.games.for.a.fool.com");
+            // Остановка на 1 с
+            Thread.Sleep(1000);
+
+            Console.WriteLine("Купите подписку на МыКомбо и слушайте музыку везде и всегда.");
+            // Остановка на 2 с
+            Thread.Sleep(2000);
+
+            Console.WriteLine("Оформите премиум-подписку на наш сервис, чтобы не видеть рекламу.");
+            // Остановка на 3 с
+            Thread.Sleep(3000);
         }
     }
 }
