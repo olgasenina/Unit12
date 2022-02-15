@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T17:27:18.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="68IhizeSu53Dt7tHw-KB" version="16.5.6" type="github"><diagram id="lQI30dlDuUCwMHOIcv5Y" name="Page-1">zVRNb4MwDP01OU4igZVyLJRuh02b1EN3zUgGkQJBaRjQX79AwpfaSu2pk5BlvzzH+NkKcKO8eZG4zN4FoRwghzTA3QKEoIcQ6D6HtAbxA88AqWTEkiZgz07Ugo5FK0bocUFUQnDFyiWYiKKgiVpgWEpRL2k/gi+rljilZ8A+wfwcPTCiMoOukT/hr5Sl2VAZrgJzkuOBbDs5ZpiIega5MXAjKYQyXt5ElHfiDbqYvN2V0/HHJC3ULQlF+P3m1fFn0EYnnrLq4ys+PNlbfjGvbMNg64Bg29nQAVsI1v7gaxv2NrYNqXZQSVfSA9FBWGdM0X2Jk+6k1juhsUzlXEdQu7YclYo2V/uAozp6rajIqZKtptgEFFhB7UZ5Nqyn8cCVxbLZaAYethuRjjdPomnH6naHhuiyhhurVWeNns+9nqv/pZ7/aPnci/Jt4Ew+s4LebClRb3VBExryrrfrGWLSNz1tJMTDKvc3TPcbHC2rmLGNq2/84GyEUlQFoV2bzkPGCN0bx+jfP0YdTq9UfzZ76934Dw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T17:32:01.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="_xk7Ef9uZwC1GbrGk1vk" version="16.5.6" type="github">
+  <diagram id="lQI30dlDuUCwMHOIcv5Y" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nBbL4wEP9yCzlgiuOXEW-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBbL4wEP9yCzlgiuOXEW-2" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="470" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBbL4wEP9yCzlgiuOXEW-3" value="&lt;div&gt;Создать список пользователей&lt;/div&gt;&lt;div&gt;List&amp;lt;User&amp;gt; users = new List&amp;lt;User&amp;gt;();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="120" width="240" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
